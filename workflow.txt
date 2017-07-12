@@ -1,0 +1,14 @@
+Workflow
+
+(0) create a feature branch
+(1) add, commit, 'push origin <branch>'
+(2) git fetch upstream
+(3) git merge upstream/master
+  (3.5) if conflict make changes and commit
+(4) git push origin <branch>
+(5) pull request on github
+
+
+Notes
+
+(1) Use updated version of npm install -> package-lock.json created
