@@ -11,9 +11,7 @@ app.use(middleware.cookieParser());
 app.use(middleware.bodyParser.urlencoded({extended: false}));
 app.use(middleware.bodyParser.json());
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'ejs'); // what is this??
-
-app.use(express.static(path.resolve(__dirname, '../client/dist/')));
+app.set('view engine', 'ejs'); // what is this?? // what is view engine??r
 
 app.use(middleware.auth.session);
 app.use(middleware.passport.initialize());

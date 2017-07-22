@@ -19,7 +19,7 @@ const Auth = db.Model.extend({
       }
     });
   },
-
+  
   comparePassword: function(attempted) {
     return bcrypt.compareAsync(attempted, this.get('password'));
   },

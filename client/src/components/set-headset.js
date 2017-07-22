@@ -1,5 +1,5 @@
 import React from 'react';
-import Gameboard from './gameboard.js';
+import Gameboard from './gameboard.jsx';
 
 class SetHeadset extends React.Component {
 	constructor(props) {
@@ -19,7 +19,7 @@ class SetHeadset extends React.Component {
 			<div>
 				<h1 className="select-headband">Select Headband For Player A</h1>
 				<button onClick={ () => this.handleClick('3D62') } >3D62</button>
-				<button onClick={ () => this.handleClick('489F') } >489F</button>
+				<button onClick={ () => this.handleClick('4B9F') } >4B9F</button>
 			</div>
 		);
 	}
